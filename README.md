@@ -19,6 +19,6 @@ npm test
 
 ## Screenshots
 
-All tests passing ✅
+All tests passing
 
 ![All tests passing](docs/tests-passing.png)
