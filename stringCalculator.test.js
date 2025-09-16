@@ -28,6 +28,22 @@ test('throws exception for negative numbers with all negatives listed', () => {
   expect(() => add("1,-2,3,-4")).toThrow("negative numbers not allowed -2,-4");
 });
 
+// Edge cases
+test('handles mix of commas, newlines, and custom delimiter', () => {
+  expect(add("//;\n1;2\n3,4")).toBe(10);
+});
+
+test('returns 0 for only delimiters with no numbers', () => {
+  expect(add(",,,\n\n")).toBe(0);
+});
+
+test('trims spaces around numbers', () => {
+  expect(add(" 1 , 2 , 3 ")).toBe(6);
+});
+
+test('throws error for invalid non-numeric values', () => {
+  expect(() => add("1,a,3")).toThrow("Invalid input: a");
+});
 
 
 
