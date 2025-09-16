@@ -23,7 +23,7 @@
 Clone the repository and run tests locally:
 
 ```bash
-git clone https://github.com/ankita0399/string-calculator-tdd.git
+git clone https://github.com/ankita0399/string-calculator.git
 cd string-calculator
 npm install
 npm test
