@@ -1,3 +1,5 @@
+# Incubyte Assessment
+
 # String Calculator TDD Kata
 
 This is an implementation of the String Calculator kata using Test Driven Development (TDD).
