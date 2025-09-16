@@ -1,6 +1,5 @@
 
 <div align="center">
-	<img src="docs/tests-passing.png" alt="All tests passing" width="400"/>
 	<h1>Incubyte Assessment</h1>
 	<h2>String Calculator TDD Kata</h2>
 	<p><em>Implementation of the String Calculator kata using Test Driven Development (TDD).</em></p>
