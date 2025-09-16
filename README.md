@@ -16,6 +16,7 @@ git clone <repo-url>
 cd string-calculator
 npm install
 npm test
+```
 
 ## Screenshots
 
