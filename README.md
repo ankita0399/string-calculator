@@ -12,7 +12,7 @@ This is an implementation of the String Calculator kata using Test Driven Develo
 
 ## Run Locally
 ```bash
-git clone <repo-url>
+git clone https://github.com/ankita0399/string-calculator-tdd.git
 cd string-calculator
 npm install
 npm test
